@@ -1,3 +1,4 @@
+First Enter the Ethereum Codes Folder and Run that by Following the Below Instructions.
 # Decentralized-Voting
 This is an ethereum based decentralized voting app developed n blockchain.
 ### Dependencies:
@@ -14,10 +15,14 @@ npm install
 ```
 Then, open up a new terminal tab:
 ```
-truffle develop
+truffle.cmd develop
 > compile
-> migrate
+> migrate --reset
 ```
 Go back to your previous tab:
 ```
 npm run dev
+
+## Now Start the MongoDB databse
+Run app.js file sitting in the main folder using the command
+    node app.js
