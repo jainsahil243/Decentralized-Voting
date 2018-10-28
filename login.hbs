@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <body background="flag.jpg">
+    <meta charset="utf-8">
+    <title>Some website</title>
+    <h1 style="color: green">
+        <center>INDIAN NATIONAL ELECTIONS 2019</center>
+    </h1>
+    <style>
+    .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: -webkit-linear-gradient(bottom left, skyblue, green);
+   color: white;
+   text-align: center;
+}
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: yellow;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: blue;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:link,
+      a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      a:hover,
+      a:active {
+        background-color: red;
+      }
+    </style>
+    <style>
+      .button {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+    </style>
+</head>
+
+<center>
+      <h1 style="color: green">{{pagetitle}}</h1>
+      <form action="http://127.0.0.1:4000/vote" method="POST">
+        <label for="fname"><b>First Name</b></label><br><br>
+        <input type="text" placeholder="YOUR FIRST NAME" name="fname"><br><br>
+        <label for="mname"><b>Middle Name</b></label><br><br>
+        <input type="text" placeholder="YOUR MIDDLE NAME" name="mname"><br><br>
+        <label for="lname"><b>Last Name</b></label><br><br>
+        <input type="text" placeholder="YOUR LAST NAME" name="lname"><br><br>
+        <label for="adhar"><b>Adhar Number</b></label><br><br>
+        <input type="password" placeholder="AADHAR NUMBER" name="adhar"><br><br>
+        <input type="submit" value="Submit"><br>
+      </form>
+
+</center>
+ <div class="footer">
+    <p>Copyright © VIT University All rights reserved.</p>
+    <p>Designed by Sahil Jain and Team</p>
+    </footer>
+    </div>
+</body>
+
+</html>
