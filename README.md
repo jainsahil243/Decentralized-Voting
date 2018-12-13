@@ -22,7 +22,22 @@ truffle.cmd develop
 Go back to your previous tab:
 ```
 npm run dev
+```
+Now open another terminal:
+```
+type cd C:\Program Files\MongoDB\Server\3.6\bin
+and then type mongod
 
-## Now Start the MongoDB databse
-Run app.js file sitting in the main folder using the command
-    node app.js
+```
+Then, open up a new terminal tab:
+```
+type cd C:\Program Files\MongoDB\Server\3.6\bin
+then type mongo
+
+```
+Then, open up a new terminal tab:
+```
+cd eth-voting-dapp
+cd Ethereum-Democracy
+node app.js
+
