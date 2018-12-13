@@ -10,7 +10,8 @@ This is an ethereum based decentralized voting app developed n blockchain.
 ```
 npm install -g truffle
 git clone https://github.com/moneymaker-sj/Decentralized-Voting
-cd eth-voting-dapp
+cd Decentralized-Voting
+cd Ethereum Democracy
 npm install
 ```
 Then, open up a new terminal tab:
@@ -37,7 +38,6 @@ then type mongo
 ```
 Then, open up a new terminal tab:
 ```
-cd eth-voting-dapp
-cd Ethereum-Democracy
+cd Decentralized-Voting
 node app.js
 
