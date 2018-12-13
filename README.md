@@ -9,7 +9,7 @@ This is an ethereum based decentralized voting app developed n blockchain.
 ## Setup
 ```
 npm install -g truffle
-git clone https://github.com/tko22/eth-voting-dapp.git
+git clone https://github.com/moneymaker-sj/Decentralized-Voting
 cd eth-voting-dapp
 npm install
 ```
